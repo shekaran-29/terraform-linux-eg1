@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "linux" {
-    host     = "192.168.235.131"
+    host     = "192.168.88.130"
     port     = 22
     user     = "root"
     password = "1"
