@@ -10,8 +10,8 @@ terraform {
 provider "linux" {
     host     = "192.168.88.130"
     port     = 22
-    user     = "root"
-    password = "1"
+    user     = "ubuntu"
+    password = "root123"
 }
 
 resource "linux_file" "unnatifile" {
